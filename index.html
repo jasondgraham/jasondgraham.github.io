@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Professional Web Design">
+    <meta name="author" content="Jason D. Graham">
+    <!--  _               _____    ____    _   _       _____
+         | |     /\      / ____|  / __ \  | \ | |     |  __ \
+         | |    /  \    | (___   | |  | | |  \| |     | |  | |
+     _   | |   / /\ \    \___ \  | |  | | |   ` |     | |  | |
+    | |__| |  / ____ \   ____) | | |__| | | |\  |     | |__| |
+    \______/ /_/    \_\ |_____/   \____/  |_| \_|     |_____/ 
+      _____   _____               _    _              __  __
+     / ____| |  __ \      /\     | |  | |     /\     |  \/  |
+    | |  __  | |__) |    /  \    | |__| |    /  \    | \  / |
+    | | |_ | |  _  /    / /\ \   |  __  |   / /\ \   | |\/| |
+    | |__| | | | \ \   / ____ \  | |  | |  / ____ \  | |  | |
+    \______| |_|  \_\ /_/    \_\ |_|  |_| /_/    \_\ |_|  |_| 
+    -->
+    <title>Jason D. Graham Web Design</title>
+    <link rel="image_src" href="images/grahamB.png" />
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="javascripts/app.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid" id="navfluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navigationbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#head" data-toggle="collapse" data-target=".nav-collapse">Home</a></li>
+                    <li><a href="#about" data-toggle="collapse" data-target=".nav-collapse">About me</a></li>
+                    <li><a href="#portfolio" data-toggle="collapse" data-target=".nav-collapse">Portfolio</a></li>
+                    <li><a href="#contact" data-toggle="collapse" data-target=".nav-collapse">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main (Home) section -->
+    <section class="section" id="head">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">
+                    <!--<h1 class="text-center title">Jason D.</br>Graham</h1>
+                    <h2 class="subtitle">Front End Web Developer</h2>-->
+                    <img src="images/grahamW.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Second (About) section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="text-center title">About me</h2>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text-center" style="background: rgba(0, 0, 0, 0.2)">
+                    </br>
+                    <p align="left">
+                        I am a Southern California based web developer specializing in responsive design and client side development using the latest technolgies including HTML5, CSS3, JavaScript and jQuery. I offer custom designs, WordPress and Joomla themes, Wix and Squarespace updates, animations, shopping carts, photo galleries and search engine optimization.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Third (Works) section -->
+    <section class="section" id="portfolio">
+        <div class="container">
+            <h2 class="text-center title">Portfolio</h2>
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-2 text-center">
+                    <div class="thumbnail">
+                        <a href="http://interstellaroverlord.com" target="_blank"><img src="images/interstellar.jpg" alt="Interstellar Overlord">
+                            <div class="caption">
+                                <h3>Interstellar Overlord Records</h3>
+                            </div>
+                        </a>
+                        <p>Local independant record label</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="thumbnail">
+                        <a href="http://fever-dog.com" target="_blank"><img src="images/feverdog.jpg" alt="Fever Dog">
+                            <div class="caption">
+                                <h3>Fever Dog</h3>
+                            </div>
+                        </a>
+                        <p>Desert Rock Band from Palm Desert</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-2 text-center">
+                    <div class="thumbnail">
+                        <a href="http://olivasmasonry.com" target="_blank"><img src="images/olivas.jpg" alt="Olivas Masonry">
+                            <div class="caption">
+                                <h3>Olivas Masonry</h3>
+                            </div>
+                        </a>
+                        <p>Masonry and Stonework Contractor</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="thumbnail">
+                        <a href="http://lesserothergods.tk" target="_blank"><img src="images/lesser.jpg" alt="Lesser Other Gods">
+                            <div class="caption">
+                                <h3>Lesser Other Gods</h3>
+                            </div>
+                        </a>
+                        <p>Call of Cthulhu Game Stat Generator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fourth (Contact) section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="text-center title">Contact</h2>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text-center" style="background: rgba(0, 0, 0, 0.2)">
+                    
+                        <div id="contact-area">
+                         <section class="contact" id="contact">
+   
+            <div class="row">
+
+
+                <form method="post" action="contactengine.php" name="contactform" id="contactform">
+                    <div class="col-md-12">
+                        <fieldset>
+                            <input name="name" type="text" id="name" size="30" placeholder="Name">
+                            <br>
+                            <input name="email" type="text" id="email" size="30" placeholder="Email">
+                            <br>
+                            <textarea name="message" cols="40" rows="20" id="message" placeholder="Message"></textarea>
+                        </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                        <fieldset>
+                            <button type="submit" class="btn btn-lg" id="submit" value="Submit">Send Message</button>
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+                            <ul class="list-inline list-social ">
+                            <li><a href="https://twitter.com/jasondgraham_ " target="_blank "><i class="fa fa-twitter fa-fw "></i> Twitter</a></li>
+                            <li><a href="https://github.com/jasondgraham " target="_blank "><i class="fa fa-github fa-fw "></i> Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/jasondgraham " target="_blank "><i class="fa fa-linkedin fa-fw "></i> LinkedIn</a></li>
+                        </ul>
+        </div>
+    </section>
+
+    <section class="section" id="success">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">
+                    <h2 class="text-center title">Your message has been sent!</h2>
+                    <p>I'll get get back to you as soon possible</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="error">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">
+                    <h2 class="text-center title">Something went wrong</h2>
+                    <p><a href="#contact">Try Again</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
