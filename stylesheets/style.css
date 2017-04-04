@@ -75,8 +75,9 @@ body {
     display: block;
 }
 #head img {
-    max-width: 75vh;
-    max-height: 75vh;
+    max-width: 75%;
+    max-height: 75%;
+
 }
 
 div {
