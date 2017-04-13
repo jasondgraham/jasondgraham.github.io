@@ -144,11 +144,11 @@
                 <form method="post" action="contactengine.php" name="contactform" id="contactform">
                     <div class="col-md-12">
                         <fieldset>
-                            <input name="name" type="text" id="name" size="30" placeholder="Name">
+                            <input name="name" type="text" id="name" size="30" placeholder="Name" required>
                             <br>
-                            <input name="email" type="text" id="email" size="30" placeholder="Email">
+                            <input name="email" type="email" id="email" size="30" placeholder="Email" required>
                             <br>
-                            <textarea name="message" cols="40" rows="20" id="message" placeholder="Message"></textarea>
+                            <textarea name="message" cols="40" rows="20" id="message" placeholder="Message" required></textarea>
                         </fieldset>
                     </div>
                     <div class="col-md-12">
@@ -163,28 +163,6 @@
                             <li><a href="https://github.com/jasondgraham " target="_blank "><i class="fa fa-github fa-fw "></i> Github</a></li>
                             <li><a href="https://www.linkedin.com/in/jasondgraham " target="_blank "><i class="fa fa-linkedin fa-fw "></i> LinkedIn</a></li>
                         </ul>
-        </div>
-    </section>
-
-    <section class="section" id="success">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">
-                    <h2 class="text-center title">Your message has been sent!</h2>
-                    <p>I'll get get back to you as soon possible</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="error">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">
-                    <h2 class="text-center title">Something went wrong</h2>
-                    <p><a href="#contact">Try Again</a></p>
-                </div>
-            </div>
         </div>
     </section>
 
